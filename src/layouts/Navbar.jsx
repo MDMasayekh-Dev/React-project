@@ -8,7 +8,7 @@ import Buttons from '../components/Buttons'
 
 const Navbar = () => {
   return (
-    <nav>
+    <nav className='py-[18px]'>
         <Container>
            <Flex className="justify-between items-center">
             <div>
