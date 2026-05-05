@@ -3,7 +3,8 @@ import Navbar from './layouts/Navbar'
 import Banner from './layouts/Banner'
 import Services from './layouts/Services'
 import Servicecards from './components/Servicecards'
-import Aboutme from './components/Aboutme'
+import Aboutpart from './layouts/Aboutpart'
+
  
 const App = () => {
   return (
@@ -11,7 +12,7 @@ const App = () => {
 <Navbar/>
 <Banner/>
 <Services/>
-<Aboutme/>
+<Aboutpart/>
 </div>
   )
 }
